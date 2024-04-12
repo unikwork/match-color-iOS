@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F10F5052BC505C40023E199 /* GameColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5042BC505C40023E199 /* GameColors.swift */; };
+		1F10F51C2BC540910023E199 /* UIView+CheetahAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F50E2BC540900023E199 /* UIView+CheetahAnimation.swift */; };
+		1F10F51E2BC540910023E199 /* CheetahViewProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5102BC540900023E199 /* CheetahViewProperties.swift */; };
+		1F10F51F2BC540910023E199 /* Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5112BC540900023E199 /* Bezier.swift */; };
+		1F10F5202BC540910023E199 /* CheetahProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5132BC540900023E199 /* CheetahProperties.swift */; };
+		1F10F5212BC540910023E199 /* CheetahLabelProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5142BC540910023E199 /* CheetahLabelProperties.swift */; };
+		1F10F5222BC540910023E199 /* Easings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5152BC540910023E199 /* Easings.swift */; };
+		1F10F5232BC540910023E199 /* CheetahLayerProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5162BC540910023E199 /* CheetahLayerProperties.swift */; };
+		1F10F5242BC540910023E199 /* CheetahManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5172BC540910023E199 /* CheetahManager.swift */; };
+		1F10F5252BC540910023E199 /* Cheetah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5182BC540910023E199 /* Cheetah.swift */; };
+		1F10F5262BC540910023E199 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F5192BC540910023E199 /* Spring.swift */; };
+		1F10F5272BC540910023E199 /* CheetahGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F51A2BC540910023E199 /* CheetahGroup.swift */; };
+		1F10F5282BC540910023E199 /* CheetahConstraintProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10F51B2BC540910023E199 /* CheetahConstraintProperties.swift */; };
+		1F1C860A2BC7B53E00023B65 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1C86092BC7B53E00023B65 /* LevelViewController.swift */; };
+		1FD629A92B9B2B0500C6816F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD629A82B9B2B0500C6816F /* AppDelegate.swift */; };
+		1FD629AB2B9B2B0500C6816F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD629AA2B9B2B0500C6816F /* SceneDelegate.swift */; };
+		1FD629AD2B9B2B0500C6816F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD629AC2B9B2B0500C6816F /* ViewController.swift */; };
+		1FD629B02B9B2B0500C6816F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD629AE2B9B2B0500C6816F /* Main.storyboard */; };
+		1FD629B22B9B2B0700C6816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD629B12B9B2B0700C6816F /* Assets.xcassets */; };
+		1FD629B52B9B2B0700C6816F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD629B32B9B2B0700C6816F /* LaunchScreen.storyboard */; };
+		1FEC17C82BC803320014AC81 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC17C72BC803320014AC81 /* GameOverView.swift */; };
+		1FEC17CA2BC806250014AC81 /* GameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEC17C92BC806250014AC81 /* GameOverView.xib */; };
+		A77967C1BE29D01DE088B3A3 /* Pods_matchthecolor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B36F44EE8677FC45185E540 /* Pods_matchthecolor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		179E449BD6818C6B384987B7 /* Pods-matchthecolor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matchthecolor.release.xcconfig"; path = "Target Support Files/Pods-matchthecolor/Pods-matchthecolor.release.xcconfig"; sourceTree = "<group>"; };
+		1F10F5042BC505C40023E199 /* GameColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColors.swift; sourceTree = "<group>"; };
+		1F10F50E2BC540900023E199 /* UIView+CheetahAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CheetahAnimation.swift"; sourceTree = "<group>"; };
+		1F10F5102BC540900023E199 /* CheetahViewProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahViewProperties.swift; sourceTree = "<group>"; };
+		1F10F5112BC540900023E199 /* Bezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bezier.swift; sourceTree = "<group>"; };
+		1F10F5122BC540900023E199 /* Cheetah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cheetah.h; sourceTree = "<group>"; };
+		1F10F5132BC540900023E199 /* CheetahProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahProperties.swift; sourceTree = "<group>"; };
+		1F10F5142BC540910023E199 /* CheetahLabelProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahLabelProperties.swift; sourceTree = "<group>"; };
+		1F10F5152BC540910023E199 /* Easings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easings.swift; sourceTree = "<group>"; };
+		1F10F5162BC540910023E199 /* CheetahLayerProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahLayerProperties.swift; sourceTree = "<group>"; };
+		1F10F5172BC540910023E199 /* CheetahManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahManager.swift; sourceTree = "<group>"; };
+		1F10F5182BC540910023E199 /* Cheetah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheetah.swift; sourceTree = "<group>"; };
+		1F10F5192BC540910023E199 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		1F10F51A2BC540910023E199 /* CheetahGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahGroup.swift; sourceTree = "<group>"; };
+		1F10F51B2BC540910023E199 /* CheetahConstraintProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahConstraintProperties.swift; sourceTree = "<group>"; };
+		1F1C86092BC7B53E00023B65 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		1FD629A52B9B2B0500C6816F /* matchthecolor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matchthecolor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD629A82B9B2B0500C6816F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD629AA2B9B2B0500C6816F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FD629AC2B9B2B0500C6816F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FD629AF2B9B2B0500C6816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD629B12B9B2B0700C6816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD629B42B9B2B0700C6816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FD629B62B9B2B0700C6816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEC17C72BC803320014AC81 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		1FEC17C92BC806250014AC81 /* GameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameOverView.xib; sourceTree = "<group>"; };
+		6B36F44EE8677FC45185E540 /* Pods_matchthecolor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_matchthecolor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC332BEC9C0562846136B14 /* Pods-matchthecolor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matchthecolor.debug.xcconfig"; path = "Target Support Files/Pods-matchthecolor/Pods-matchthecolor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD629A22B9B2B0500C6816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77967C1BE29D01DE088B3A3 /* Pods_matchthecolor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F10F5032BC505AF0023E199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F10F5042BC505C40023E199 /* GameColors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F10F5072BC53CD50023E199 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F10F5112BC540900023E199 /* Bezier.swift */,
+				1F10F5122BC540900023E199 /* Cheetah.h */,
+				1F10F5182BC540910023E199 /* Cheetah.swift */,
+				1F10F51B2BC540910023E199 /* CheetahConstraintProperties.swift */,
+				1F10F51A2BC540910023E199 /* CheetahGroup.swift */,
+				1F10F5142BC540910023E199 /* CheetahLabelProperties.swift */,
+				1F10F5162BC540910023E199 /* CheetahLayerProperties.swift */,
+				1F10F5172BC540910023E199 /* CheetahManager.swift */,
+				1F10F5132BC540900023E199 /* CheetahProperties.swift */,
+				1F10F5102BC540900023E199 /* CheetahViewProperties.swift */,
+				1F10F5152BC540910023E199 /* Easings.swift */,
+				1F10F5192BC540910023E199 /* Spring.swift */,
+				1F10F50E2BC540900023E199 /* UIView+CheetahAnimation.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1F1C86082BC7B2C900023B65 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FD629AC2B9B2B0500C6816F /* ViewController.swift */,
+				1F1C86092BC7B53E00023B65 /* LevelViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1FD6299C2B9B2B0500C6816F = {
+			isa = PBXGroup;
+			children = (
+				1FD629A72B9B2B0500C6816F /* matchthecolor */,
+				1FD629A62B9B2B0500C6816F /* Products */,
+				250A2D57F2BD30E55EE98F1A /* Pods */,
+				49B7CFB534C2B963817B31F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD629A62B9B2B0500C6816F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD629A52B9B2B0500C6816F /* matchthecolor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD629A72B9B2B0500C6816F /* matchthecolor */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC17C62BC7FF940014AC81 /* Views */,
+				1F1C86082BC7B2C900023B65 /* ViewControllers */,
+				1F10F5072BC53CD50023E199 /* Extension */,
+				1F10F5032BC505AF0023E199 /* Models */,
+				1FD629A82B9B2B0500C6816F /* AppDelegate.swift */,
+				1FD629AA2B9B2B0500C6816F /* SceneDelegate.swift */,
+				1FD629AE2B9B2B0500C6816F /* Main.storyboard */,
+				1FD629B12B9B2B0700C6816F /* Assets.xcassets */,
+				1FD629B32B9B2B0700C6816F /* LaunchScreen.storyboard */,
+				1FD629B62B9B2B0700C6816F /* Info.plist */,
+			);
+			path = matchthecolor;
+			sourceTree = "<group>";
+		};
+		1FEC17C62BC7FF940014AC81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC17C72BC803320014AC81 /* GameOverView.swift */,
+				1FEC17C92BC806250014AC81 /* GameOverView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		250A2D57F2BD30E55EE98F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEC332BEC9C0562846136B14 /* Pods-matchthecolor.debug.xcconfig */,
+				179E449BD6818C6B384987B7 /* Pods-matchthecolor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49B7CFB534C2B963817B31F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B36F44EE8677FC45185E540 /* Pods_matchthecolor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD629A42B9B2B0500C6816F /* matchthecolor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD629B92B9B2B0700C6816F /* Build configuration list for PBXNativeTarget "matchthecolor" */;
+			buildPhases = (
+				9C1D8CEDA029A1470A1051EB /* [CP] Check Pods Manifest.lock */,
+				1FD629A12B9B2B0500C6816F /* Sources */,
+				1FD629A22B9B2B0500C6816F /* Frameworks */,
+				1FD629A32B9B2B0500C6816F /* Resources */,
+				08C2F03292BF0EC8E38C4D64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = matchthecolor;
+			productName = matchthecolor;
+			productReference = 1FD629A52B9B2B0500C6816F /* matchthecolor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD6299D2B9B2B0500C6816F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1FD629A42B9B2B0500C6816F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1FD629A02B9B2B0500C6816F /* Build configuration list for PBXProject "matchthecolor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD6299C2B9B2B0500C6816F;
+			productRefGroup = 1FD629A62B9B2B0500C6816F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD629A42B9B2B0500C6816F /* matchthecolor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD629A32B9B2B0500C6816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD629B52B9B2B0700C6816F /* LaunchScreen.storyboard in Resources */,
+				1FD629B22B9B2B0700C6816F /* Assets.xcassets in Resources */,
+				1FEC17CA2BC806250014AC81 /* GameOverView.xib in Resources */,
+				1FD629B02B9B2B0500C6816F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C2F03292BF0EC8E38C4D64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-matchthecolor/Pods-matchthecolor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-matchthecolor/Pods-matchthecolor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-matchthecolor/Pods-matchthecolor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1D8CEDA029A1470A1051EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-matchthecolor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD629A12B9B2B0500C6816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F10F5222BC540910023E199 /* Easings.swift in Sources */,
+				1F1C860A2BC7B53E00023B65 /* LevelViewController.swift in Sources */,
+				1F10F51F2BC540910023E199 /* Bezier.swift in Sources */,
+				1FD629AD2B9B2B0500C6816F /* ViewController.swift in Sources */,
+				1FD629A92B9B2B0500C6816F /* AppDelegate.swift in Sources */,
+				1F10F51C2BC540910023E199 /* UIView+CheetahAnimation.swift in Sources */,
+				1F10F5202BC540910023E199 /* CheetahProperties.swift in Sources */,
+				1FD629AB2B9B2B0500C6816F /* SceneDelegate.swift in Sources */,
+				1F10F5242BC540910023E199 /* CheetahManager.swift in Sources */,
+				1F10F5232BC540910023E199 /* CheetahLayerProperties.swift in Sources */,
+				1F10F5212BC540910023E199 /* CheetahLabelProperties.swift in Sources */,
+				1F10F5252BC540910023E199 /* Cheetah.swift in Sources */,
+				1F10F5282BC540910023E199 /* CheetahConstraintProperties.swift in Sources */,
+				1F10F5262BC540910023E199 /* Spring.swift in Sources */,
+				1F10F5272BC540910023E199 /* CheetahGroup.swift in Sources */,
+				1F10F51E2BC540910023E199 /* CheetahViewProperties.swift in Sources */,
+				1FEC17C82BC803320014AC81 /* GameOverView.swift in Sources */,
+				1F10F5052BC505C40023E199 /* GameColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FD629AE2B9B2B0500C6816F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD629AF2B9B2B0500C6816F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD629B32B9B2B0700C6816F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD629B42B9B2B0700C6816F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD629B72B9B2B0700C6816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD629B82B9B2B0700C6816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD629BA2B9B2B0700C6816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC332BEC9C0562846136B14 /* Pods-matchthecolor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = matchthecolor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unikwork.matchthecolor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FD629BB2B9B2B0700C6816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179E449BD6818C6B384987B7 /* Pods-matchthecolor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = matchthecolor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unikwork.matchthecolor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD629A02B9B2B0500C6816F /* Build configuration list for PBXProject "matchthecolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD629B72B9B2B0700C6816F /* Debug */,
+				1FD629B82B9B2B0700C6816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD629B92B9B2B0700C6816F /* Build configuration list for PBXNativeTarget "matchthecolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD629BA2B9B2B0700C6816F /* Debug */,
+				1FD629BB2B9B2B0700C6816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD6299D2B9B2B0500C6816F /* Project object */;
+}
